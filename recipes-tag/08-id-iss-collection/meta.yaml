@@ -7,10 +7,10 @@ package:
   version: {{ year }}C{{ cycle }}.{{ version }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   run:
-    - isstools
-    - netcdf4
+    - 08-id-iss-analysis
+    - pykafka
     - lightflow
